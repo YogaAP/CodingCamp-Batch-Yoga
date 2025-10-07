@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Computer – Solusi Lengkap Teknologi Anda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Core Computer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#beranda">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="beranda">
+        <div class="container text-center text-white position-relative">
+            <h1 class="display-4 animate-fade-up">Core Computer – Solusi Lengkap Teknologi Anda</h1>
+            <h2 class="h4 mt-3 animate-fade-up delay-1">Sparepart PC Berkualitas | Jual Beli PC & Laptop | Jasa Servis & CCTV</h2>
+            <p class="lead mt-4 animate-fade-up delay-2">Core Computer adalah toko terpercaya di Semarang yang menyediakan berbagai sparepart PC berkualitas, layanan jual beli PC dan laptop baru maupun bekas, serta jasa servis dan instalasi CCTV untuk kebutuhan rumah dan kantor.</p>
+            <a href="#kontak" class="btn btn-primary btn-lg mt-3 animate-fade-up delay-3">Hubungi Kami</a>
+        </div>
+    </header>
+
+    <!-- Produk Unggulan -->
+    <section class="py-5" id="produk">
+        <div class="container">
+            <div class="section-header scroll-trigger fade-up-scroll">
+                <h2>Produk Unggulan</h2>
+                <p class="text-muted">Pilihan terbaik dengan kualitas terjamin</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 scroll-trigger fade-left-scroll">
+                        <div class="card-img-container">
+                            <img src="img/GTX 1050 GAMING X 2G_3.png" class="card-img-top" alt="VGA MSI GTX 1050">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">VGA MSI GTX 1050 2GB GAMING X</h5>
+                            <p class="text-muted mb-2">Twin Frozr VI Thermal Design</p>
+                            <p class="card-text text-primary fw-bold">Rp1.390.000</p>
+                            <a href="#kontak" class="btn btn-primary">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 scroll-trigger scale-in-scroll">
+                        <div class="card-img-container">
+                            <img src="img/ssd-m2-nvme.png" class="card-img-top" alt="SAMSUNG 970 PRO M.2 2280 1TB PCIe Gen3.X4 NVMe">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">SSD NVME M.2 1TB</h5>
+                            <p class="text-muted mb-2">10x Faster Than HDD</p>
+                            <p class="card-text text-primary fw-bold">Rp1.350.000</p>
+                            <a href="#kontak" class="btn btn-primary">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 scroll-trigger fade-right-scroll">
+                        <div class="card-img-container">
+                            <img src="img/moboam5.png" class="card-img-top" alt="Motherboard MSI AMD X670">
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Motherboard MSI AMD X670</h5>
+                            <p class="text-muted mb-2">Socket AM5</p>
+                            <p class="card-text text-primary fw-bold">Rp5.000.000</p>
+                            <a href="#kontak" class="btn btn-primary">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan -->
+    <section class="bg-light py-5" id="layanan">
+        <div class="container">
+            <div class="section-header scroll-trigger fade-up-scroll">
+                <h2>Layanan Kami</h2>
+                <p class="text-muted">Solusi profesional untuk kebutuhan teknologi Anda</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-box text-center scroll-trigger fade-left-scroll">
+                        <i class="fas fa-laptop-medical fa-3x mb-4"></i>
+                        <h4>Servis PC & Laptop</h4>
+                        <p>Perbaikan hardware dan software, upgrade, dan pembersihan rutin.</p>
+                        <a href="#kontak" class="btn btn-primary mt-3">Konsultasi Gratis</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center scroll-trigger scale-in-scroll">
+                        <i class="fas fa-video fa-3x mb-4"></i>
+                        <h4>Instalasi CCTV</h4>
+                        <p>Pemasangan kamera, konfigurasi sistem, dan pemantauan jarak jauh.</p>
+                        <a href="#kontak" class="btn btn-primary mt-3">Dapatkan Penawaran</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box text-center scroll-trigger fade-right-scroll">
+                        <i class="fas fa-comments fa-3x mb-4"></i>
+                        <h4>Konsultasi Teknologi</h4>
+                        <p>Bantuan dalam memilih perangkat sesuai kebutuhan Anda.</p>
+                        <a href="#kontak" class="btn btn-primary mt-3">Jadwalkan Konsultasi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section class="py-5" id="testimoni">
+        <div class="container">
+            <div class="section-header scroll-trigger fade-up-scroll">
+                <h2>Testimoni Pelanggan</h2>
+                <p class="text-muted">Apa kata mereka tentang layanan kami</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 scroll-trigger fade-left-scroll">
+                        <div class="card-body">
+                            <p class="card-text"><i class="fas fa-quote-left me-2"></i>Servis cepat dan hasil memuaskan! Core Computer selalu jadi andalan saya.<i class="fas fa-quote-right ms-2"></i></p>
+                            <footer class="blockquote-footer">Dina, Semarang</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 scroll-trigger fade-right-scroll">
+                        <div class="card-body">
+                            <p class="card-text"><i class="fas fa-quote-left me-2"></i>Harga sparepartnya bersaing, dan teknisinya sangat profesional.<i class="fas fa-quote-right ms-2"></i></p>
+                            <footer class="blockquote-footer">Andi, Semarang</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="bg-light py-5" id="kontak">
+        <div class="container">
+            <div class="section-header scroll-trigger fade-up-scroll">
+                <h2>Hubungi Kami</h2>
+                <p class="text-muted">Kami siap membantu Anda</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-info scroll-trigger fade-left-scroll">
+                        <h4 class="mb-4">Informasi Kontak</h4>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>Jl. Siwal 002, RT.: 004/RW.:, Dusun II, Waru, Kec. Baki, Kabupaten Sukoharjo, Jawa Tengah 57556</p>
+                        <p><i class="fas fa-phone me-2"></i>0821-4449-6990</p>
+                        <p><i class="fab fa-whatsapp me-2"></i>0821-4449-6990</p>
+                        <p><i class="fas fa-envelope me-2"></i>corecomputer@domain.com</p>
+                    </div>
+                    <div class="map mt-4 scroll-trigger fade-left-scroll">
+                        <h4>Lokasi Kami</h4>
+                        <p>Temukan kami di pusat kota Semarang, mudah dijangkau dan dekat dengan area bisnis utama.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="process.php" method="POST" class="contact-form scroll-trigger fade-right-scroll">
+                        <h4 class="mb-4">Formulir Kontak</h4>
+                        <p class="mb-4">Isi formulir di bawah untuk mendapatkan diskon spesial atau jadwalkan servis gratis pertama Anda.</p>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" name="nama" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" name="telepon" placeholder="Nomor Telepon" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" name="pesan" rows="4" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; <?php echo date('Y'); ?> Core Computer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Enhanced scroll animations -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scroll for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Intersection Observer for sections
+            const sections = document.querySelectorAll('section');
+            const sectionObserver = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            sectionObserver.unobserve(entry.target); // Only animate once
+                        }
+                    });
+                },
+                {
+                    threshold: 0.15,
+                    rootMargin: '0px 0px -10% 0px'
+                }
+            );
+
+            sections.forEach(section => {
+                sectionObserver.observe(section);
+            });
+
+            // Enhanced scroll trigger animations
+            const scrollTriggers = document.querySelectorAll('.scroll-trigger');
+            const triggerObserver = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('is-visible');
+                            // Add stagger effect for multiple elements
+                            if (entry.target.parentElement.classList.contains('row')) {
+                                const siblings = entry.target.parentElement.children;
+                                Array.from(siblings).forEach((el, index) => {
+                                    el.style.transitionDelay = `${index * 0.15}s`;
+                                });
+                            }
+                        }
+                    });
+                },
+                {
+                    threshold: 0.15,
+                    rootMargin: '-50px 0px -10% 0px'
+                }
+            );
+
+            scrollTriggers.forEach(trigger => {
+                triggerObserver.observe(trigger);
+            });
+
+            // Reset scroll position on page load
+            window.scrollTo(0, 0);
+        });
+    </script>
+</body>
+</html> 
